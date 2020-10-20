@@ -12,7 +12,10 @@ There are three source files which are widely used to run the scripts -
 
 These have all the necessary functions needed to run various scripts.
 
-Note - If one encounters errors related to print function in setup_methods.py, it's mostly because default might be python2, not python3. To overcome that, one can use print function of python3 in python2 by including "from __future__ import print_function" as the very start of script "setup_methods.py"
+Note - If one encounters errors related to print function in setup_methods.py, it's mostly because default might be python2, not python3. To overcome that, one can use print function of python3 in python2 by including 
+
+  "from __future__ import print_function" 
+as the very start of script "setup_methods.py"
 
 
 2) Counting weak keys in various curves:
