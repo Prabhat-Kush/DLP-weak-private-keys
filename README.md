@@ -42,4 +42,4 @@ There are 14 scripts, one each for 14 Certicom Challenge Curves. Out of these 14
 - 5 are for binary curves (ECC2_131.sage, ECC2_163.sage, ECC2_191.sage, ECC2_238.sage, ECC2_353.sage), and 
 - the remaining 4 are for Koblitz curves  (ECC2K_130.sage, ECC2K_163.sage, ECC2K_238.sage, ECC2K_358.sage).
 
-We can run any of curve script to check that while we find the solution for randomly generated (weak) DLP instance but the given Certicom challenge DLP instance is not solvable, which shows that the private key given in the Certicom challenge DLP instance is not weak, subject to certain bounds.
+We can run any of curve script to check that while we find the solution for randomly generated (weak) DLP instance, but the given Certicom challenge DLP instance is not solvable, upto certain bounds. This shows that the private key given in the Certicom challenge DLP instance is not weak, subject to certain bounds.
