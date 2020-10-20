@@ -22,22 +22,22 @@ as the very start of script "setup_methods.py"
 2) Counting weak keys in various curves:
 We have divided the various curve standards into a few categories. Mainly,
 
-GetStats-112.sage : Curves providing security below 128 bits 
+- GetStats-112.sage : Curves providing security below 128 bits 
 
-GetStats-128.sage : Curves providing security between 128 and 192 bits
+- GetStats-128.sage : Curves providing security between 128 and 192 bits
 
-GetStats-192.sage : Curves providing security between 192 and 256 bits
+- GetStats-192.sage : Curves providing security between 192 and 256 bits
 
-GetStats-256.sage : Curves providing security at least 256 bits
+- GetStats-256.sage : Curves providing security at least 256 bits
 
-GetStats-Updated-pairing-128.sage : Updated pairing friendly curves providing 128-bit security
+- GetStats-Updated-pairing-128.sage : Updated pairing friendly curves providing 128-bit security
 
-GetStats-Updated-pairing-192.sage : Updated pairing friendly curves providing 192-bit security
+- GetStats-Updated-pairing-192.sage : Updated pairing friendly curves providing 192-bit security
 
-GetStats-Updated-pairing-256.sage : Updated pairing friendly curves providing 256-bit security
+- GetStats-Updated-pairing-256.sage : Updated pairing friendly curves providing 256-bit security
 
 
-To get the data for various standards for each category, one should run that particular script. 
+To get the data for various standards for each category, one should run that particular category script. 
 
 3) Certicom Challenge Curves:
 There are 14 scripts, one each for 14 Certicom Challenge Curves. Out of these 14 Certicom scripts, 
