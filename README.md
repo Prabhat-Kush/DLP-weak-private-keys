@@ -8,11 +8,11 @@ Basic Description about codes:
 There are three source files which are widely used to run the scripts - 
 - setup_methods.py,
 - implicit_bsgs.py, 
--implicit_kangaroo.py
+- implicit_kangaroo.py
 
 These have all the necessary functions needed to run various scripts.
 
-Note: If one encounters errors related to print function in setup_methods.py, it's mostly because default might be python2, not python3. To overcome that, one can use print function of python3 in python2 by including "from __future__ import print_function" as the very start of script "setup_methods.py"
+Note - If one encounters errors related to print function in setup_methods.py, it's mostly because default might be python2, not python3. To overcome that, one can use print function of python3 in python2 by including "from __future__ import print_function" as the very start of script "setup_methods.py"
 
 
 2) Counting weak keys in various curves:
@@ -40,4 +40,6 @@ There are 14 scripts, one each for 14 Certicom Challenge Curves. Out of these 14
 
 - 5 are for over prime fields (ECCp_131.sage, ECCp_163.sage, ECCp_191.sage, ECCp_239.sage, ECCp_359.sage), 
 - 5 are for binary curves (ECC2_131.sage, ECC2_163.sage, ECC2_191.sage, ECC2_238.sage, ECC2_353.sage), and 
-- the remaining 4 are for Koblitz curves  (ECC2K_130.sage, ECC2K_163.sage, ECC2K_238.sage, ECC2K_358.sage). We can run any of curve script to check that while we find the solution for randomly generated (weak) DLP instance but the given Certicom challenge DLP instance is not solvable, which shows that the private key given in the Certicom challenge DLP instance is not weak, subject to certain bounds.
+- the remaining 4 are for Koblitz curves  (ECC2K_130.sage, ECC2K_163.sage, ECC2K_238.sage, ECC2K_358.sage).
+
+We can run any of curve script to check that while we find the solution for randomly generated (weak) DLP instance but the given Certicom challenge DLP instance is not solvable, which shows that the private key given in the Certicom challenge DLP instance is not weak, subject to certain bounds.
