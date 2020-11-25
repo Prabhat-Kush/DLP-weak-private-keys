@@ -1,4 +1,13 @@
 # DLP_weak_keys
+
+Here, we describe a novel type of weak cryptographic private key that can exist in any discrete logarithm-based public-key cryptosystem set in a group of prime order p where p − 1 has small divisors. Unlike the weak private keys based on numerical size (such as smaller private keys, or private keys lying in an interval) that will always exist in any DLP cryptosystems, our type of weak private keys occurs purely due to parameter choice of p, and hence, can be removed with appropriate value of p.
+
+For more details about these weak keys, see the following paper published in Journal of Cryptographic Engineering.
+
+https://doi.org/10.1007/s13389-020-00250-7
+
+
+
 Methods to detect weak or vulnerable private keys in various Elliptic Curve standards.
 
 Basic Description about codes:
